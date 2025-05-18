@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter_18pt-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* You can add global styles to this file, and also import other style files */
 /**
   Нормализация блочной модели
@@ -208,3 +216,4 @@
      scroll-behavior: auto !important;
    }
  }
+ 
