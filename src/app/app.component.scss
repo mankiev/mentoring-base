@@ -3,7 +3,6 @@
   text-decoration: none;
  }
  .header {
-  font-family: Inter, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +20,8 @@
  }
  
  .header-actions {
+  font-weight: 500;
+  font-size: 16px;
   display: flex;
   align-items: center;
   padding-left: 522px;
@@ -28,8 +29,6 @@
  }
  
  .header-number {
-  font-weight: 500;
-  font-size: 16px;
   display: flex;
   column-gap: 10px;
  }
@@ -48,9 +47,6 @@
  }
  
  .header2 {
-  font-family: Inter, sans-serif;
-  font-weight: 600;
-  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,6 +61,8 @@
  }
  
  .header2-menu-list {
+  font-weight: 600;
+  font-size: 14px;
   display: flex;
   column-gap: 24px;
  }
@@ -88,6 +86,8 @@
  }
  
  .header2-search-text {
+  font-weight: 400;
+  font-size: 16px;
   width: 300px;
   border: none;
   background: none;
@@ -104,16 +104,20 @@
  }
  
  .header2-form-city {
+  font-weight: 500;
+  font-size: 14px;
   border: none;
   background: none;
   color: #fff;
  }
-select::-ms-expand { display: none; /* Удаляем ненужную стрелку */ }
+select::-ms-expand {
+  display: none;
+}
 select {
-  -webkit-appearance: none; /* Для Chrome и Safari */
-  -moz-appearance: none; /* Для Firefox */
-  appearance: none; /* Для всех современных браузеров */
-  background-color: white; /* Это очень важно */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: white;
 }
 
 .header2-form-city {
