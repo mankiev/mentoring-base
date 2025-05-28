@@ -1,7 +1,7 @@
   <header class="header">
     <a href="/" class="header-logo">
       <img
-      src="/assets/Frame.svg"
+      src="/assets/icons/logo.svg"
       alt="EGE Logo"
       class="header-logo-image"
       width="60" height="40"
@@ -22,50 +22,38 @@
     </nav>
     <div class="header-actions">
       <div class="header-number">
-      <img src="/assets/Phone.svg" alt="Phone icon">
+      <img src="/assets/icons/Phone.svg" alt="Phone icon">
       +7 (965) 084-29-29 
       </div>
     <a href="" class="header-heart">
-      <img src="/assets/heart.svg" alt="Heart icon">
+      <img src="/assets/icons/heart.svg" alt="Heart icon">
     </a>
     <button class="header-cart">
-      <img src="/assets/cart.svg" alt="Cart icon" width="28" height="28">
+      <img src="/assets/icons/cart.svg" alt="Cart icon" width="28" height="28">
       Пусто
     </button>
     </div>
   </header>
   <header class="header2">
-    <button class="header2-list-button">
-      <img src="/assets/light.svg" alt="Button list">
+    <button class="header2-tree-button">
+      <img src="/assets/icons/tree.svg" alt="Button tree">
     </button>
-    <nav class="header2-menu">
-      <ul class="header2-menu-list">
-        <li class="header2-menu-item">
-          <a href="" class="header2-menu-link">Каталог</a>
-        </li>
-        <li class="header2-menu-item">
-          <a href="" class="header2-menu-link">Стройматериалы</a>
-        </li>
-        <li class="header2-menu-item">
-          <a href="" class="header2-menu-link">Инструменты</a>
-        </li>
-        <li class="header2-menu-item">
-          <a href="" class="header2-menu-link">Электрика</a>
-        </li>
-        <li class="header2-menu-item">
-          <a href="" class="header2-menu-link">Интерьер и одежда</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="header2-menu">
+      <button class="header2-menu-button" type="button">Каталог</button>
+      <button class="header2-menu-button" type="button">Стройматериалы</button>
+      <button class="header2-menu-button" type="button">Инструменты</button>
+      <button class="header2-menu-button" type="button">Электрика</button>
+      <button class="header2-menu-button" type="button">Интерьер и одежда</button>
+    </div>
     <form class="header2-form">
       <div class="header2-form-search">
       <input type="search" class="header2-search-text" placeholder="Поиск, например Круг зачистной">
       <button class="header2-button-loupe">
-      <img src="/assets/loupe.svg" alt="Loupe icon">
+      <img src="/assets/icons/loupe.svg" alt="Loupe icon">
       </button>
       </div>
       <div class="header2-form-location">
-      <img src="/assets/map-pin.svg" alt="Map icon" class="header2-form-map">
+      <img src="/assets/icons/map-pin.svg" alt="Map icon" class="header2-form-map">
       <select name="city" id="city" class="header2-form-city">
         <option value="moscow">Москва</option>
         <option value="petersburg">Санкт-Петербург</option>
@@ -76,3 +64,111 @@
       </div>
     </form>
   </header>
+  <main class="content">
+    <section class="banner">
+      <img src="/assets/images/banner.png" alt="Banner" class="banner-image">
+    </section>
+    <section class="benefit">
+      <ul class="benefit-list">
+        <li class="benefit-item">
+          <img src="assets/icons/brickwall.svg" alt="Brick wall icon" class="card-first-icon">
+          <div class="benefit-text">
+          Большой ассортимент <br>
+          <span class="color-gray">строительных материалов всегда в <br> наличии
+          </span>
+          </div>
+        </li>
+        <li class="benefit-item">
+          <img src="/assets/icons/Delivery.svg" alt="Delivery icon" class="card-second-icon">
+          <div class="benefit-text">
+          Доставка стройматериалов <br>
+          <span class="color-gray">в течении четырех часов или в <br> любое удобное время</span>
+          </div>
+        </li>
+        <li class="benefit-item">
+          <img src="/assets/icons/LikeHand.svg" alt="Like icon" class="card-third-icon">
+          <div class="benefit-text">
+          <span class="color-gray">Многоуровневая система <br> </span> 
+          управления качеством <span class="color-gray">по стандарту <br>
+          ISO 9001</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="products">
+      <ul class="products-pagination">
+        <li class="pagination-item">
+          <button class="pagination-button is-current">1</button>
+        </li>
+        <li class="pagination-item">
+          <button class="pagination-button">2</button>
+        </li>
+        <li class="pagination-item">
+          <button class="pagination-button">3</button>
+        </li>
+        <li class="pagination-item">
+          <button class="pagination-button">4</button>
+        </li>
+        <li class="pagination-item">
+          <button class="pagination-button">5</button>
+        </li> 
+      </ul>
+      <ul class="product-card">
+        <li class="poduct-card-item1">
+          <div class="product-card-title">
+            Строительный отделочный инструмент
+          </div>
+          <div class="poduct-card-link">
+            Перейти в каталог
+            <a href="" class="product-card-href">
+            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            </a>
+          </div>
+        </li>
+        <li class="poduct-card-item2">
+          <div class="product-card-title-right">
+            Эмали
+          </div>
+          <div class="poduct-card-link">
+            Перейти в каталог
+            <a href="" class="product-card-href">
+            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            </a>
+          </div>
+        </li>
+        <li class="poduct-card-item3">
+          <div class="product-card-title">
+            Лакокрасочные материалы
+          </div>
+          <div class="poduct-card-link-left">
+            Перейти в каталог
+            <a href="" class="product-card-href">
+            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            </a>
+          </div>
+        </li>
+        <li class="poduct-card-item4">
+          <div class="product-card-title">
+            Пены, клеи и<br> герметики
+          </div>
+          <div class="poduct-card-link-left">
+            Перейти в каталог
+            <a href="" class="product-card-href">
+            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            </a>
+          </div>
+        </li>
+        <li class="poduct-card-item5">
+          <div class="product-card-title">
+            Розетки и выключатели
+          </div>
+          <div class="poduct-card-link">
+            Перейти в каталог
+            <a href="" class="product-card-href">
+            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            </a>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
