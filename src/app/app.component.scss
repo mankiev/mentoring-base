@@ -1,7 +1,10 @@
+  a {
+    text-decoration: none;
+  }
   a.header-menu-link {
   color: #fff;
-  text-decoration: none;
  }
+ 
  .header {
   display: flex;
   justify-content: center;
@@ -31,6 +34,12 @@
  .header-number {
   display: flex;
   column-gap: 10px;
+ }
+ 
+ .header-heart {
+  padding: 0;
+  background-color: transparent;
+  border: none;
  }
 
  .header-cart {
@@ -127,7 +136,6 @@ select {
   background: #F0BA4E;
 }
 
-
 .color-gray {
   color: #A1A0A0;
 }
@@ -155,6 +163,7 @@ select {
   width: 421px;
   height: 72px;
 }
+
 
 .products {
   margin-inline: auto;
@@ -293,4 +302,212 @@ select {
 .product-card-arrow {
   width: 21px;
   height: 8px;
+}
+
+
+.popular_products {
+  margin-inline: auto;
+  margin-top: 56px;
+  width: 1320px;
+  height: 491px;
+  color: #3C3C3B;
+}
+
+.popular_products-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular_products-title-text {
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.popular_products-title-link {
+  font-weight: 600;
+  font-size: 18px;
+  color: #F0BA4E;
+}
+
+.popular_products-list {
+  display: flex;
+  gap: 28px;
+  position: relative;
+}
+
+.popular_products-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+  width: 309px;
+  height: 450px;
+  box-shadow: 0 20px 50px 0 rgba(18, 17, 39, 0.08);
+  background-image: url(/assets/images/cutting-wheel.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 25px;
+}
+
+.products-item-head {
+display: flex;
+justify-content: space-between;
+}
+
+.products-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.products-item-discount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 61px;
+  padding: 10px 20px;
+  width: 54px;
+  height: 39px;
+  background-color: #FA5D69;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+
+.products-item-heart {
+  height: 39px;
+  padding: 0;
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.pruducts-item-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: #08C785;
+  border-radius: 54px;
+  padding: 10px 20px;
+  width: 109px;
+  height: 39px;
+}
+
+.products-item-main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.item-main-name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.products-item-articul {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.products-item-price {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+  row-gap: 6px;
+}
+
+.prise-wrapper {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.prise-strikeout {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: line-through;
+  
+}
+
+.prise-number {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.products-item-order {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-quantity {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.quantity-text {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.quantity-actions {
+  display: flex;
+  column-gap: 16px;
+}
+
+.minus, .plus {
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  background: none;
+  padding: 0;
+  padding-bottom: 5px;
+}
+
+.quantity-number {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.quantity-cart {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border: 1px solid #F0BA4E;
+  border-radius: 54px;
+  padding: 14px 28px;
+  width: 135px;
+  height: 50px;
+}
+
+.cards-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-weight: 400;
+  font-size: 40px;
+  bottom: 50%;
+  width: 60px;
+  height: 60px;
+  border-radius: 36px;
+  background: #fff;
+  color: #F0BA4E;
+  box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.07);
+  border: none;
+}
+.arrow-left {
+  position: absolute;
+  left: -45px;
+}
+
+.arrow-right {
+  position: absolute;
+  right: -15px;
 }
