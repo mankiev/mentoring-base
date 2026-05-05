@@ -6,6 +6,7 @@
  }
  
  .header {
+  margin-inline: auto;
   padding-inline: 10px;
   max-width: 1920px;
   color: #fff;
@@ -68,6 +69,7 @@
  }
  
  .header2 {
+  margin-inline: auto;
   padding-inline: 10px;
   max-width: 1920px;
   background: #F0BA4E;
@@ -157,13 +159,20 @@ select {
   color: #A1A0A0;
 }
 
+.banner-image {
+  margin-inline: auto;
+}
+
+main {
+  margin-inline: auto;
+  max-width: 1320px;
+}
+
 .benefit-list {
   display: flex;
   justify-content: space-between;
-  margin-inline: auto;
   margin-top: 28px;
   column-gap: 28px;
-  max-width: 1319px;
 }
 
 .benefit-item {
@@ -177,9 +186,7 @@ select {
 
 
 .products {
-  margin-inline: auto;
   margin-top: 28px;
-  max-width: 1320px;
   height: 463px;
 }
 
@@ -218,7 +225,7 @@ select {
   height: 428px;
   max-width: 421px;
   padding: 16px;
-  background-image: url('/assets/images/product-firstcard-image.png');
+  background-image: url('/src/assets/images/product-firstcard-image.png');
   background-position-y: bottom;
   background-position-x: left;
   background-repeat: no-repeat;
@@ -232,7 +239,7 @@ select {
   height: 200px;
   max-width: 421px;
   padding: 16px;
-  background-image: url('/assets/images/product-secondcard-image.png');
+  background-image: url('/src/assets/images/product-secondcard-image.png');
   background-position-y: bottom;
   background-position-x: left;
   background-repeat: no-repeat;
@@ -246,7 +253,7 @@ select {
   height: 200px;
   max-width: 421px;
   padding: 16px;
-  background-image: url('/assets/images/product-thirdcard-image.png');
+  background-image: url('/src/assets/images/product-thirdcard-image.png');
   background-position-y: bottom;
   background-position-x: right;
   background-repeat: no-repeat;
@@ -260,7 +267,7 @@ select {
   height: 200px;
   max-width: 421px;
   padding: 16px;
-  background-image: url('/assets/images/product-fourthcard-image.png');
+  background-image: url('/src/assets/images/product-fourthcard-image.png');
   background-position-y: bottom;
   background-position-x: right;
   background-repeat: no-repeat;
@@ -274,7 +281,7 @@ select {
   height: 200px;
   max-width: 421px;
   padding: 16px;
-  background-image: url('/assets/images/product-fifthcard-image.png');
+  background-image: url('/src/assets/images/product-fifthcard-image.png');
   background-position-y: bottom;
   background-position-x: left;
   background-repeat: no-repeat;
@@ -316,9 +323,7 @@ select {
 }
 
 .popular_products {
-  margin-inline: auto;
   margin-top: 56px;
-  max-width: 1320px;
   color: #3C3C3B;
 }
 
@@ -352,7 +357,7 @@ select {
   width: 309px;
   height: 450px;
   box-shadow: 0 20px 50px 0 rgba(18, 17, 39, 0.08);
-  background-image: url(/assets/images/cutting-wheel.png);
+  background-image: url('/src/assets/images/cutting-wheel.png');
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 25px;
@@ -522,12 +527,8 @@ justify-content: space-between;
   left: calc(100% - 20px);
 }
 
-
 .catalog {
-  margin-inline: auto;
   margin-top: 56px;
-  //transform: translateX(100px);
-  max-width: 1320px;
   height: 251px;
   padding-right: 16px;
   background: linear-gradient(90deg, #f6f6f6 0%, #f6f6f6 100%);
@@ -537,7 +538,7 @@ justify-content: space-between;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/assets/images/worker.png);
+  background-image: url('/src/assets/images/worker.png');
   background-position: right;
   background-repeat: no-repeat;
   height: 251px;
@@ -565,6 +566,7 @@ justify-content: space-between;
 
 footer {
   display: block;
+  margin-inline: auto;
   margin-top: 48px;
   max-width: 1920px;
   background-color: #4B565E;
@@ -693,4 +695,3 @@ a.down-nav-link {
   font-size: 14px;
   color: #A1A0A0;
  }
- 

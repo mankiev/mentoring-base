@@ -10,4 +10,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'mentoring-first-project';
+  readonly HeaderItem1 = 'Главная';
+  readonly HeaderItem2 = 'О компании';
+  readonly HeaderItem3 = 'Каталог';
 }

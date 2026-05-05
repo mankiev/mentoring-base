@@ -3,7 +3,7 @@
     <div class="header-left-wrapper">
     <a href="/" class="header-logo">
       <img
-      src="/assets/icons/logo.svg"
+      src="/src/assets/icons/logo.svg"
       alt="EGE Logo"
       class="header-logo-image"
       width="60" height="40"
@@ -12,27 +12,29 @@
     <nav class="header-menu">
       <ul class="header-menu-list">
         <li class="header-menu-item">
-          <a href="" class="header-menu-link">Главная</a>
+          <a href="" class="header-menu-link">{{HeaderItem1}}</a>
         </li>
         <li class="header-menu-item">
-          <a href="" class="header-menu-link">О компании</a>
+          <a href="" class="header-menu-link">{{HeaderItem2}}</a>
         </li>
         <li class="header-menu-item">
-          <a href="" class="header-menu-link">Каталог</a>
+          <a href="" class="header-menu-link">{{HeaderItem3}}</a>
         </li>
       </ul>
     </nav>
     </div>
     <div class="header-actions">
       <div class="header-number">
-      <img src="/assets/icons/phone.svg" alt="Phone icon">
-      +7 (965) 084-29-29 
+        <img src="/src/assets/icons/phone.svg" alt="Phone icon">
+        <a href="tel:+79650842929" class="header-menu-link">
+          +7 (965) 084-29-29 
+        </a>
       </div>
     <button class="header-heart">
-      <img src="/assets/icons/heart.svg" alt="Heart icon">
+      <img src="/src/assets/icons/heart.svg" alt="Heart icon">
     </button>
     <button class="header-cart">
-      <img src="/assets/icons/cart.svg" alt="Cart icon" width="28" height="28">
+      <img src="/src/assets/icons/cart.svg" alt="Cart icon" width="28" height="28">
       Пусто
     </button>
     </div>
@@ -42,7 +44,7 @@
   <div class="header2-wrapper">
     <div class="header-left-wrapper">
     <button class="header2-tree-button">
-      <img src="/assets/icons/tree.svg" alt="Button tree">
+      <img src="/src/assets/icons/tree.svg" alt="Button tree">
     </button>
     <div class="header2-menu">
       <button class="header2-menu-button" type="button">Каталог</button>
@@ -56,11 +58,11 @@
       <div class="header2-form-search">
         <input type="search" class="header2-search-text" placeholder="Поиск, например Круг зачистной">
         <button class="header2-button-loupe">
-        <img src="/assets/icons/loupe.svg" alt="Loupe icon">
+        <img src="/src/assets/icons/loupe.svg" alt="Loupe icon">
         </button>
       </div>
       <div class="header2-form-location">
-        <img src="/assets/icons/map-pin.svg" alt="Map icon" class="header2-form-map">
+        <img src="/src/assets/icons/map-pin.svg" alt="Map icon" class="header2-form-map">
         <select name="city" id="city" class="header2-form-city">
           <option value="moscow">Москва</option>
           <option value="petersburg">Санкт-Петербург</option>
@@ -72,14 +74,12 @@
     </form>
   </div>
 </header>
-  <main class="content">
-    <section class="banner">
-      <img src="/assets/images/banner.png" alt="Banner" class="banner-image">
-    </section>
+<img src="/src/assets/images/banner.png" alt="Banner" class="banner-image">
+<main class="content">
     <section class="benefit">
       <ul class="benefit-list">
         <li class="benefit-item">
-          <img src="assets/icons/brickwall.svg" alt="Brick wall icon" class="card-first-icon">
+          <img src="/src/assets/icons/brickwall.svg" alt="Brick wall icon" class="card-first-icon">
           <div class="benefit-text">
           Большой ассортимент <br>
           <span class="color-gray">строительных материалов всегда в <br> наличии
@@ -87,14 +87,14 @@
           </div>
         </li>
         <li class="benefit-item">
-          <img src="/assets/icons/delivery.svg" alt="Delivery icon" class="card-second-icon">
+          <img src="/src/assets/icons/delivery.svg" alt="Delivery icon" class="card-second-icon">
           <div class="benefit-text">
           Доставка стройматериалов <br>
           <span class="color-gray">в течении четырех часов или в <br> любое удобное время</span>
           </div>
         </li>
         <li class="benefit-item">
-          <img src="/assets/icons/likehand.svg" alt="Like icon" class="card-third-icon">
+          <img src="/src/assets/icons/likehand.svg" alt="Like icon" class="card-third-icon">
           <div class="benefit-text">
           <span class="color-gray">Многоуровневая система <br> </span> 
           управления качеством <span class="color-gray">по стандарту <br>
@@ -129,7 +129,7 @@
           <div class="poduct-card-link">
             Перейти в каталог
             <a href="" class="product-card-href">
-            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            <img src="/src/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
             </a>
           </div>
         </li>
@@ -140,7 +140,7 @@
           <div class="poduct-card-link">
             Перейти в каталог
             <a href="" class="product-card-href">
-            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            <img src="/src/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
             </a>
           </div>
         </li>
@@ -151,7 +151,7 @@
           <div class="poduct-card-link-left">
             Перейти в каталог
             <a href="" class="product-card-href">
-            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            <img src="/src/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
             </a>
           </div>
         </li>
@@ -162,7 +162,7 @@
           <div class="poduct-card-link-left">
             Перейти в каталог
             <a href="" class="product-card-href">
-            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            <img src="/src/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
             </a>
           </div>
         </li>
@@ -173,7 +173,7 @@
           <div class="poduct-card-link">
             Перейти в каталог
             <a href="" class="product-card-href">
-            <img src="/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
+            <img src="/src/assets/icons/product-card-Arrow.svg" alt="Arrow image" class="product-card-arrow">
             </a>
           </div>
         </li>
@@ -190,7 +190,7 @@
           <div class="products-item-head">
             <span class="products-item-discount">%</span>
             <button class="products-item-heart">
-            <img src="/assets/icons/black-heart.svg" alt="Heart icon">
+            <img src="/src/assets/icons/black-heart.svg" alt="Heart icon">
             </button>
           </div>
           <div class="products-item-main">
@@ -230,7 +230,7 @@
           <div class="products-item-head">
             <span class="products-item-discount">%</span>
             <button class="products-item-heart">
-            <img src="/assets/icons/black-heart.svg" alt="Heart icon">
+            <img src="/src/assets/icons/black-heart.svg" alt="Heart icon">
             </button>
           </div>
           <div class="products-item-main">
@@ -273,7 +273,7 @@
               <span class="products-item-discount">%</span>
             </div>
             <button class="products-item-heart">
-            <img src="/assets/icons/black-heart.svg" alt="Heart icon">
+            <img src="/src/assets/icons/black-heart.svg" alt="Heart icon">
             </button>
           </div>
           <div class="products-item-main">
@@ -313,7 +313,7 @@
           <div class="products-item-head">
             <span class="pruducts-item-new">Новинка</span>
             <button class="products-item-heart">
-            <img src="/assets/icons/black-heart.svg" alt="Heart icon">
+            <img src="/src/assets/icons/black-heart.svg" alt="Heart icon">
             </button>
           </div>
           <div class="products-item-main">
@@ -348,10 +348,10 @@
         </li>
       </ul>
       <button class="cards-arrow arrow-left">
-        <img src="/assets/icons/arrow-card-left.svg" alt="Arrow icon">
+        <img src="/src/assets/icons/arrow-card-left.svg" alt="Arrow icon">
         </button>
         <button class="cards-arrow arrow-right">
-        <img src="/assets/icons/arrow-card-right.svg" alt="Arrow icon">
+        <img src="/src/assets/icons/arrow-card-right.svg" alt="Arrow icon">
       </button>
       </div>
     </section>
@@ -381,7 +381,7 @@
           <div class="products-item-head">
             <span class="pruducts-item-new">Новинка</span>
             <button class="products-item-heart">
-            <img src="/assets/icons/black-heart.svg" alt="Heart icon">
+            <img src="/src/assets/icons/black-heart.svg" alt="Heart icon">
             </button>
           </div>
           <div class="products-item-main">
@@ -418,7 +418,7 @@
           <div class="products-item-head">
             <span class="pruducts-item-new">Новинка</span>
             <button class="products-item-heart">
-            <img src="/assets/icons/black-heart.svg" alt="Heart icon">
+            <img src="/src/assets/icons/black-heart.svg" alt="Heart icon">
             </button>
           </div>
           <div class="products-item-main">
@@ -455,7 +455,7 @@
           <div class="products-item-head">
             <span class="pruducts-item-new">Новинка</span>
             <button class="products-item-heart">
-            <img src="/assets/icons/black-heart.svg" alt="Heart icon">
+            <img src="/src/assets/icons/black-heart.svg" alt="Heart icon">
             </button>
           </div>
           <div class="products-item-main">
@@ -492,7 +492,7 @@
           <div class="products-item-head">
             <span class="pruducts-item-new">Новинка</span>
             <button class="products-item-heart">
-            <img src="/assets/icons/black-heart.svg" alt="Heart icon">
+            <img src="/src/assets/icons/black-heart.svg" alt="Heart icon">
             </button>
           </div>
           <div class="products-item-main">
@@ -527,44 +527,45 @@
         </li>
       </ul>
       <button class="cards-arrow arrow-left">
-        <img src="/assets/icons/arrow-card-left.svg" alt="Arrow icon">
+        <img src="/src/assets/icons/arrow-card-left.svg" alt="Arrow icon">
         </button>
         <button class="cards-arrow arrow-right">
-        <img src="/assets/icons/arrow-card-right.svg" alt="Arrow icon">
+        <img src="/src/assets/icons/arrow-card-right.svg" alt="Arrow icon">
       </button>
       </div>
     </section>
-    <footer>
+</main>
+<footer>
       <div class="footer-wrapper">
       <div class="footer-left">
-      <img src="/assets/icons/logo.svg" alt="Logo icon">
+      <img src="/src/assets/icons/logo.svg" alt="Logo icon">
         <div class="footer-gap-wrapper">
           <div class="footer-left-wrapper">
-            <img src="/assets/icons/phone-footer.svg" alt="Phone icon">
+            <img src="/src/assets/icons/phone-footer.svg" alt="Phone icon">
             <div class="footer-left-main">
               <p class="footer-left-title">
                 Контактный телефон
               </p>
-              <p class="footer-left-text">
+              <a href="tel:+78123090934" class="footer-left-text">
                 + 7 (812) 309-09-34
-              </p>
-              <p class="footer-left-text">
+              </a>
+              <a href="tel:+ 79650842909" class="footer-left-text">
                 + 7 (965) 084-29-09
-              </p>
+              </a>
             </div>
           </div>
           <div class="footer-left-wrapper">
-            <img src="/assets/icons/email.svg" alt="Email icon">
+            <img src="/src/assets/icons/email.svg" alt="Email icon">
             <div class="footer-left-main">
               <p class="footer-left-title">
                 Электронная почта
               </p>
-              <p class="footer-left-text">
+              <a href="mailto:tustin78@mail.ru" class="footer-left-text">
                 tustin78&#64;mail.ru
-              </p>
-              <p class="footer-left-text">
+              </a>
+              <a href="mailto:info@tustin.ru" class="footer-left-text">
                 info&#64;tustin.ru
-              </p>
+              </a>
             </div>
           </div>
         </div>
@@ -578,7 +579,7 @@
         </div>
         <form class="footer-right-input">
           <div class="right-input-wrapper">
-            <img src="/assets/icons/email.svg" alt="Email icon" width="16px" height="16px">
+            <img src="/src/assets/icons/email.svg" alt="Email icon" width="16px" height="16px">
             <input type="search" class="right-input-search" placeholder="Введите свою почту">
           </div>
           <button class="footer-right-button">
@@ -600,9 +601,9 @@
         </nav>
         <div class="footer-down-media">
           <div class="down-media-social">
-            <img src="/assets/icons/facebook.svg" alt="Facebook icon">
-            <img src="/assets/icons/youtube.svg" alt="Youtube icon">
-            <img src="/assets/icons/whatsup.svg" alt="Whatsup icon">
+            <img src="/src/assets/icons/facebook.svg" alt="Facebook icon">
+            <img src="/src/assets/icons/youtube.svg" alt="Youtube icon">
+            <img src="/src/assets/icons/whatsup.svg" alt="Whatsup icon">
           </div>
           <div class="down-media-since">
             © 2021-2022, EDE
@@ -610,6 +611,4 @@
         </div>
       </div>
       </div>
-    </footer>
-  </main>
-  
+</footer>
